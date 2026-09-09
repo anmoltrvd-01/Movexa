@@ -14,9 +14,9 @@ Movexa is a modern fitness and hydration tracking application for Android, built
 
 ## 📸 Screenshots
 
-| Login | Sign Up | Activity |
+| Splash | Login | Sign Up |
 | :---: | :---: | :---: |
-| <img src="screenshots/login.jpeg" width="280"> | <img src="screenshots/signup.jpeg" width="280"> | <img src="screenshots/activity.jpeg" width="280"> |
+| <img src="screenshots/SplashScreen.jpeg" width="280"> | <img src="screenshots/login.jpeg" width="280"> | <img src="screenshots/signup.jpeg" width="280"> |
 
 | Home (Top) | Home (Bottom) | Heart Rate |
 | :---: | :---: | :---: |
