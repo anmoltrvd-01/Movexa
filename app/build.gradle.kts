@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.hilt.android)
     alias(libs.plugins.ksp)
+    alias(libs.plugins.google.services)
 }
 
 android {
@@ -31,7 +32,7 @@ android {
         }
         debug {
             isDebuggable = true
-            applicationIdSuffix = ".debug"
+            //applicationIdSuffix = ".debug"
         }
     }
 
@@ -65,7 +66,10 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.material3.window.size)
+    implementation(libs.androidx.material3.adaptive.nav)
     implementation(libs.androidx.material.icons.extended)
+    implementation(libs.androidx.ui.text.google.fonts)
 
     // ── Navigation ────────────────────────────────────────────────────────
     implementation(libs.androidx.navigation.compose)
@@ -73,13 +77,14 @@ dependencies {
     // ── Lifecycle + ViewModel ─────────────────────────────────────────────
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.lifecycle.runtime.compose)
+    implementation(libs.espresso.core)
 
-    // ── Hilt (Dependency Injection) ───────────────────────────────────────
+    // ── Hilt ──────────────────────────────────────────────────────────────
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
     implementation(libs.hilt.navigation.compose)
 
-    // ── Room (Local Database) ─────────────────────────────────────────────
+    // ── Room ──────────────────────────────────────────────────────────────
     implementation(libs.room.runtime)
     implementation(libs.room.ktx)
     ksp(libs.room.compiler)
@@ -87,10 +92,10 @@ dependencies {
     // ── Coroutines ────────────────────────────────────────────────────────
     implementation(libs.kotlinx.coroutines.android)
 
-    // ── DataStore (user preferences / settings) ───────────────────────────
+    // ── DataStore ─────────────────────────────────────────────────────────
     implementation(libs.androidx.datastore.preferences)
 
-    // ── Charts (Vico) ─────────────────────────────────────────────────────
+    // ── Vico Charts ───────────────────────────────────────────────────────
     implementation(libs.vico.compose)
     implementation(libs.vico.compose.m3)
     implementation(libs.vico.core)
@@ -98,16 +103,22 @@ dependencies {
     // ── Maps ──────────────────────────────────────────────────────────────
     implementation(libs.osmdroid)
 
-    // ── Location (GPS) ────────────────────────────────────────────────────
+    // ── Location ──────────────────────────────────────────────────────────
     implementation(libs.play.services.location)
 
-    // ── WorkManager (reminders, background sync) ──────────────────────────
+    // ── WorkManager ───────────────────────────────────────────────────────
     implementation(libs.androidx.work.runtime.ktx)
     implementation(libs.hilt.work)
     ksp(libs.hilt.work.compiler)
 
     // ── Health Connect ────────────────────────────────────────────────────
     implementation(libs.androidx.health.connect.client)
+
+    // ── Firebase ──────────────────────────────────────────────────────────
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.analytics)
+    implementation(libs.firebase.auth)
+    implementation(libs.play.services.auth)
 
     // ── Testing ───────────────────────────────────────────────────────────
     testImplementation(libs.junit)

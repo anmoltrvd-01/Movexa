@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.movexa.android" />
+                  <option name="mobileSdkAppId" value="1:800552544381:android:a34f8c39fe677365c5e914" />
+                  <option name="projectId" value="movexa-android-c5d86" />
+                  <option name="projectNumber" value="800552544381" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

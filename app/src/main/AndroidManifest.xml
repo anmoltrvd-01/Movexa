@@ -9,7 +9,7 @@
     <uses-permission android:name="android.permission.health.READ_TOTAL_CALORIES_BURNED" />
     <uses-permission android:name="android.permission.health.READ_EXERCISE" />
     <application
-        android:name=".MovexaApplication"
+        android:name="com.movexa.android.MovexaApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -19,7 +19,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Movexaandroid">
         <activity
-            android:name=".MainActivity"
+            android:name="com.movexa.android.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Movexaandroid">
             <intent-filter>
@@ -33,7 +33,7 @@
         <activity-alias
             android:name="ViewPermissionUsageActivity"
             android:exported="true"
-            android:targetActivity=".MainActivity"
+            android:targetActivity="com.movexa.android.MainActivity"
             android:permission="android.permission.START_VIEW_PERMISSION_USAGE">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW_PERMISSION_USAGE" />

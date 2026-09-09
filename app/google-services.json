@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "800552544381",
+    "project_id": "movexa-android-c5d86",
+    "storage_bucket": "movexa-android-c5d86.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800552544381:android:a34f8c39fe677365c5e914",
+        "android_client_info": {
+          "package_name": "com.movexa.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800552544381-8u9297ov8av8m0uqknb5g4d295rrpms9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.movexa.android",
+            "certificate_hash": "c08c804471df00eb803ca8c94580539bf064742e"
+          }
+        },
+        {
+          "client_id": "800552544381-f5nbbtdrmi2uq76i79bcih2i1tli67hk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUAHwENuQWs7hpLjP6Usdcde1j8jTKYmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800552544381-f5nbbtdrmi2uq76i79bcih2i1tli67hk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

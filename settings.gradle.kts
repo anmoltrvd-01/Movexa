@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "movexa-android"
+rootProject.name = "movexa"
 include(":app")
  
