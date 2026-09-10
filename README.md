@@ -22,9 +22,9 @@ Movexa is a modern fitness and hydration tracking application for Android, built
 | :---: | :---: | :---: |
 | <img src="screenshots/home_1.jpeg" width="280"> | <img src="screenshots/home_2.jpeg" width="280"> | <img src="screenshots/heart.jpeg" width="280"> |
 
-| Sleep Analysis |
-| :---: |
-| <img src="screenshots/sleep.jpeg" width="280"> |
+| Sleep Analysis | Activity Tracking |
+| :---: | :---: |
+| <img src="screenshots/sleep.jpeg" width="280"> | <img src="screenshots/activity.jpeg" width="280"> |
 
 ## 🛠 Tech Stack
 
